@@ -313,7 +313,7 @@ class MaterialUiPhoneNumber extends React.Component {
     }
 
     // Does not exceed 25 digit phone number limit
-    if (e.target.value.replace(/\D/g, '').length > 25) {
+    if (e.target.value.replace(/\D/g, '').length > 20) {
       return;
     }
 
